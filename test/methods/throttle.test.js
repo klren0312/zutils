@@ -1,0 +1,26 @@
+import {throttle} from '../../index'
+
+jest.useFakeTimers()
+
+test('test throttle', () => {
+  Date.now = jest.fn()
+    .mockImplementationOnce(() => 1000)
+    .mockImplementationOnce(() => 2002)
+    .mockImplementationOnce(() => 2004)
+    .mockImplementationOnce(() => 2024)
+    .mockImplementationOnce(() => 3003)
+    .mockImplementationOnce(() => 4005)
+    .mockImplementationOnce(() => 4088)
+  const test = jest.fn()
+  const throttled = throttle(test, 1000)
+  throttled()
+  throttled()
+  throttled()
+  throttled()
+  throttled()
+  throttled()
+  throttled()
+  jest.runAllTimers()
+  expect(test).toBeCalled()
+  expect(test).toBeCalledTimes(4)
+})
