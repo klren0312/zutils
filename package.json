@@ -7,7 +7,7 @@
   "license": "WTFPL",
   "scripts": {
     "build": "rimraf dist && parcel build index.js --no-source-maps",
-    "test": "jest"
+    "test": "jest --coverage && codecov -t 1d853f4c-be02-4ef3-a0b0-e755fc730024"
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",

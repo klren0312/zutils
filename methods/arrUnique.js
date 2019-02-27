@@ -3,7 +3,7 @@
  * 数组去重, hash方法
  * @param {Array} arr 数组
  */
-export function arrUnique (arr) {
+export default function arrUnique (arr) {
   let obj = {},
       res = [],
       len = arr.length

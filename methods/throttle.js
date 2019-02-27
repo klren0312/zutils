@@ -18,16 +18,16 @@ export function throttle(callback, offset) {
 /**
  * desperated
  */
-export function dethrottle (fn, delay) {
-  let start = 0
-  return function () {
-    let args = [],
-        len = arguments.length
-    while( len-- ) args[ len ] = arguments[ len ]
-    let current = Date.now()
-    if(start + delay <= current) {
-      start = current
-      fn.apply(this, args)
-    }
-  }
-}
+// export function dethrottle (fn, delay) {
+//   let start = 0
+//   return function () {
+//     let args = [],
+//         len = arguments.length
+//     while( len-- ) args[ len ] = arguments[ len ]
+//     let current = Date.now()
+//     if(start + delay <= current) {
+//       start = current
+//       fn.apply(this, args)
+//     }
+//   }
+// }
