@@ -3,7 +3,7 @@
  * @param {Function} fn 函数
  * @param {Number} delay 延时
  */
-export default function debounce (fn, delay) {
+function debounce (fn, delay) {
   let timer = null
   return function () {
     timer && clearTimeout(timer)
@@ -12,3 +12,4 @@ export default function debounce (fn, delay) {
     }, delay)
   }
 }
+module.exports = debounce

@@ -3,7 +3,7 @@
  * @param {Function} fn 函数
  * @param {Number} delay 延时
  */
-export function throttle(callback, offset) {
+function throttle(callback, offset) {
   var baseTime = 0
   return function () {
     var currentTime = Date.now()
@@ -14,6 +14,7 @@ export function throttle(callback, offset) {
   }
 }
 
+module.exports = throttle
 
 /**
  * desperated

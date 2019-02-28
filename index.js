@@ -1,11 +1,11 @@
-import debounce from './methods/debounce'
-import {throttle} from './methods/throttle'
-import arrUnique from './methods/arrUnique'
-import sleep from './methods/sleep'
+const arrUnique = require('./methods/arrUnique')
+const debounce = require('./methods/debounce')
+const throttle = require('./methods/throttle')
+const sleep = require('./methods/sleep')
 
-export {
+module.exports = {
+  arrUnique,
   debounce,
   throttle,
-  arrUnique,
   sleep
-}
+};
