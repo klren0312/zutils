@@ -13,8 +13,8 @@ function throttle(callback, offset) {
     }
   }
 }
+export default throttle
 
-module.exports = throttle
 
 /**
  * desperated

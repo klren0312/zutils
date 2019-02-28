@@ -9,5 +9,4 @@ function sleep(s) {
     }, s * 1000);
   });
 }
-
-module.exports = sleep
+export default sleep

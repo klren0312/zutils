@@ -16,5 +16,4 @@ function arrUnique (arr) {
   }
   return res
 }
-
-module.exports = arrUnique
+export default arrUnique

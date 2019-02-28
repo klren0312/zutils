@@ -12,4 +12,4 @@ function debounce (fn, delay) {
     }, delay)
   }
 }
-module.exports = debounce
+export default debounce
