@@ -5,7 +5,7 @@ some methods that we always use
 [![npm](https://img.shields.io/npm/dt/zmethods.svg)](https://www.npmjs.com/package/zmethods)
 [![codecov](https://codecov.io/gh/klren0312/zutils/branch/master/graph/badge.svg)](https://codecov.io/gh/klren0312/zutils)
 
-[npm-image]: https://img.shields.io/badge/npm-v1.0.2-blue.svg
+[npm-image]: https://img.shields.io/badge/npm-v1.0.6-blue.svg
 [npm-url]: https://www.npmjs.com/package/zmethods
 
 ## Install
@@ -29,4 +29,5 @@ $ npm run test
  - throttle
  - sleep
  - arrUnique
+ - toIndexOf
 
