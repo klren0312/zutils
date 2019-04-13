@@ -25,10 +25,13 @@ $ npm run test
 
 ## Methods
 
- - debounce
- - throttle
- - sleep
- - arrUnique
- - toIndexOf
- - byteFormat
+|||
+|----|----|
+|debounce|防抖|
+|throttle|节流|
+|sleep|睡眠|
+|arrUnique|数组去重|
+|toIndexOf|判断是否在数组中|
+|byteFormat|byte换算|
+|thousandsDot|数组每三位逗号分隔|
 
