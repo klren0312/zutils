@@ -4,6 +4,7 @@ import throttle from './methods/throttle'
 import sleep from './methods/sleep'
 import toIndexOf from './methods/toIndexOf'
 import byteFormat from './methods/byteFormat'
+import thousandsDot from './methods/thousandsDot'
 
 export {
   arrUnique,
@@ -11,5 +12,6 @@ export {
   throttle,
   sleep,
   toIndexOf,
-  byteFormat
+  byteFormat,
+  thousandsDot
 }

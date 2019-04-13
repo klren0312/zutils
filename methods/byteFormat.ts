@@ -1,4 +1,7 @@
 function byteFormat (size: number): string {
+  if (typeof size !== 'number') {
+		throw new Error('size must be number')
+	}
   if (size === 0) {
     return '0 Byte'
   }
