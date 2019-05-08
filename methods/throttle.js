@@ -3,13 +3,13 @@
  * @param {Function} fn 函数
  * @param {Number} delay 延时
  */
-function throttle(callback, offset) {
+function throttle(fn, delay) {
   var baseTime = 0
   return function () {
     var currentTime = Date.now()
-    if (baseTime + offset <= currentTime) {
+    if (baseTime + delay <= currentTime) {
       baseTime = currentTime
-      callback.apply(this, arguments)
+      fn.apply(this, arguments)
     }
   }
 }
