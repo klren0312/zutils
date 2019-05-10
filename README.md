@@ -34,4 +34,5 @@ $ npm run test
 |toIndexOf|判断是否在数组中|
 |byteFormat|byte换算|
 |thousandsDot|数组每三位逗号分隔|
+|deepCopy|对象/数组深拷贝|
 
