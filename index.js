@@ -5,6 +5,7 @@ import sleep from './methods/sleep'
 import toIndexOf from './methods/toIndexOf'
 import byteFormat from './methods/byteFormat'
 import thousandsDot from './methods/thousandsDot'
+import deepCopy from './methods/deepCopy'
 
 export {
   arrUnique,
@@ -13,5 +14,6 @@ export {
   sleep,
   toIndexOf,
   byteFormat,
-  thousandsDot
+  thousandsDot,
+  deepCopy
 }

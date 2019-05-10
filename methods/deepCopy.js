@@ -1,7 +1,7 @@
 /**
- * 
- * @param {*} obj 
- * @param {*} cache 
+ * 深拷贝
+ * @param {*} obj 拷贝对象(object or array)
+ * @param {*} cache 缓存数组
  */
 function deepCopy (obj, cache = []) {
   // typeof [] => 'object'
@@ -27,3 +27,5 @@ function deepCopy (obj, cache = []) {
 
   return copy
 }
+
+export default deepCopy
