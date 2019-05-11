@@ -5,4 +5,7 @@ test('test deepCopy', () => {
   expect(deepCopy(test)).toEqual('a')
   test = {a: 1, b: 2}
   expect(JSON.stringify(deepCopy(test))).toEqual(JSON.stringify({a: 1, b: 2}))
+  test = {a: 1}
+  test.b = test
+  expect(() => JSON.stringify(deepCopy(test))).toThrowError()
 })
