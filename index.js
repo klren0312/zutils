@@ -6,6 +6,7 @@ import toIndexOf from './methods/toIndexOf'
 import byteFormat from './methods/byteFormat'
 import thousandsDot from './methods/thousandsDot'
 import deepCopy from './methods/deepCopy'
+import guid from './methods/guid'
 
 export {
   arrUnique,
@@ -15,5 +16,6 @@ export {
   toIndexOf,
   byteFormat,
   thousandsDot,
-  deepCopy
+  deepCopy,
+  guid
 }
