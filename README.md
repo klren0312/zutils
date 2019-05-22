@@ -5,7 +5,7 @@ some methods that we always use
 [![npm](https://img.shields.io/npm/dt/zmethods.svg)](https://www.npmjs.com/package/zmethods)
 [![codecov](https://codecov.io/gh/klren0312/zutils/branch/master/graph/badge.svg)](https://codecov.io/gh/klren0312/zutils)
 
-[npm-image]: https://img.shields.io/badge/npm-v1.0.10-blue.svg
+[npm-image]: https://img.shields.io/badge/npm-v1.0.11-blue.svg
 [npm-url]: https://www.npmjs.com/package/zmethods
 
 ## Install
@@ -36,4 +36,5 @@ $ npm run test
 |thousandsDot|数组每三位逗号分隔|
 |deepCopy|对象/数组深拷贝|
 |guid|生成guid|
+|numPadding|数字补零|
 

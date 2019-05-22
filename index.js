@@ -7,6 +7,7 @@ import byteFormat from './methods/byteFormat'
 import thousandsDot from './methods/thousandsDot'
 import deepCopy from './methods/deepCopy'
 import guid from './methods/guid'
+import numPadding from './methods/numPadding'
 
 export {
   arrUnique,
@@ -17,5 +18,6 @@ export {
   byteFormat,
   thousandsDot,
   deepCopy,
-  guid
+  guid,
+  numPadding
 }
