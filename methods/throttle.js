@@ -15,15 +15,21 @@ function throttle(fn, delay) {
 }
 export default throttle
 
-// function throttle (func, delay = 100, context = this) {
+/**
+ * 函数节流
+ * @param {Function} fn 函数
+ * @param {Number} delay 延时
+ * @param {Object} context 上下文
+ */
+// function throttle (fn, delay = 100, context = this) {
 //   let timeout = null
-//   let funcArgs = null
+//   let fnArgs = null
 
 //   return (...args) => {
 //     if (!timeout) {
-//       funcArgs = args
+//       fnArgs = args
 //       timeout = setTimeout(() => {
-//         func.apply(context, funcArgs)
+//         fn.apply(context, fnArgs)
 //         timeout = null
 //       }, delay)
 //     }
