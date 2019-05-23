@@ -15,6 +15,20 @@ function throttle(fn, delay) {
 }
 export default throttle
 
+// function throttle (func, delay = 100, context = this) {
+//   let timeout = null
+//   let funcArgs = null
+
+//   return (...args) => {
+//     if (!timeout) {
+//       funcArgs = args
+//       timeout = setTimeout(() => {
+//         func.apply(context, funcArgs)
+//         timeout = null
+//       }, delay)
+//     }
+//   }
+// }
 
 /**
  * desperated
