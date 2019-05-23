@@ -1,4 +1,4 @@
-function deepCopy (obj: any, cache: any[] = []): any {
+function deepCopy (obj: any, cache: Array<any> = []): any {
   if (!obj || typeof obj !== 'object') {
     return obj
   }

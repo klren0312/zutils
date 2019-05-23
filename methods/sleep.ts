@@ -1,5 +1,5 @@
-function sleep(delay: number): any {
-  return new Promise((resolve) => {
+function sleep(delay: number): Promise<void> {
+  return new Promise<void>((resolve) => {
     setTimeout(() => {
       resolve()
     }, delay * 1000)

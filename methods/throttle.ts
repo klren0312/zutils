@@ -1,6 +1,6 @@
-function throttle (callback: any, delay: number): any {
+function throttle (callback: any, delay: number): Function {
   let baseTime: number = 0
-  return function () {
+  return function (): void {
     const currentTime: number = Date.now()
     if (baseTime + delay < currentTime) {
       callback.apply(this, arguments)
