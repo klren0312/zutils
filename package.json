@@ -1,6 +1,6 @@
 {
   "name": "zmethods",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "some javascript methods",
   "main": "index.js",
   "author": "zzes",
@@ -9,6 +9,7 @@
     "build": "rimraf dist && webpack",
     "test": "jest --coverage && codecov -t 1d853f4c-be02-4ef3-a0b0-e755fc730024"
   },
+  "types": "index.d.ts",
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/plugin-transform-runtime": "^7.3.4",
