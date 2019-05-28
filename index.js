@@ -8,6 +8,7 @@ import thousandsDot from './methods/thousandsDot'
 import deepCopy from './methods/deepCopy'
 import guid from './methods/guid'
 import numPadding from './methods/numPadding'
+import findLackNum from './methods/findLackNum'
 
 export {
   arrUnique,
@@ -19,5 +20,6 @@ export {
   thousandsDot,
   deepCopy,
   guid,
-  numPadding
+  numPadding,
+  findLackNum
 }
