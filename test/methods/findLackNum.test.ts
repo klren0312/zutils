@@ -9,5 +9,5 @@ test('if has startNum', () => {
 })
 
 test('nums has no number', () => {
-  expect(findLackNum()).toEqual([])
+  expect(findLackNum([])).toEqual([])
 })

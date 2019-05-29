@@ -2,8 +2,8 @@ import {debounce} from '../../index'
 jest.useFakeTimers()
 
 test('test debounce', () => {
-  const test = jest.fn()
-  const debounced = debounce(test, 1000)
+  const test: Function = jest.fn()
+  const debounced: Function = debounce(test, 1000)
   debounced()
   debounced()
   debounced()

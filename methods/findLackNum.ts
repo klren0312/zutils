@@ -10,3 +10,5 @@ function findLackNum (nums: Array<number>, ...startNum: Array<number>): Array<nu
     return []
   }
 }
+
+export default findLackNum

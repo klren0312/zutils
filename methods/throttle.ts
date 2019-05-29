@@ -7,3 +7,5 @@ function throttle (callback: any, delay: number): Function {
     }
   }
 }
+
+export default throttle

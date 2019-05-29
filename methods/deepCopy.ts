@@ -20,3 +20,5 @@ function deepCopy (obj: any, cache: Array<any> = []): any {
 
   return copy
 }
+
+export default deepCopy

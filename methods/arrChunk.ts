@@ -19,3 +19,5 @@ function arrChunk (array: Array<any>, size: number): Array<any> {
   }
   return result
 }
+
+export default arrChunk

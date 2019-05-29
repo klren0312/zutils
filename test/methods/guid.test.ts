@@ -5,7 +5,7 @@ test('test generate guid', () => {
 })
 
 test('test generate guid is different', () => {
-  let guid1 = guid()
-  let guid2 = guid()
+  let guid1: string = guid()
+  let guid2: string = guid()
   expect(guid1 === guid2).toBe(false)
 })

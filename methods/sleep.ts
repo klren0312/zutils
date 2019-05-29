@@ -5,3 +5,5 @@ function sleep(delay: number): Promise<void> {
     }, delay * 1000)
   })
 }
+
+export default sleep

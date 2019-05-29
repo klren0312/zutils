@@ -5,3 +5,5 @@ function toIndexOf (items: Array<any>, item: any): boolean {
     return false
   }
 }
+
+export default toIndexOf

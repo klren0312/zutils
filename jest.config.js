@@ -1,4 +1,8 @@
-// module.exports = {
-//   preset: 'ts-jest',
-//   testEnvironment: 'node',
-// };
+module.exports = {
+  'roots': [
+    "./test/methods"
+  ],
+  'transform': {
+    '^.+\\.tsx?$': 'ts-jest'
+  }
+}

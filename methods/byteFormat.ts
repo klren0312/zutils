@@ -13,3 +13,5 @@ function byteFormat (size: number): string {
   }
   return `${size} ${unit[pos]}`
 }
+
+export default byteFormat

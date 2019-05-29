@@ -6,8 +6,8 @@ import {sleep} from '../../index'
 // babel.config.js add:
 // plugins: ["@babel/plugin-transform-runtime"]
 test('test sleep', async () => {
-  const start = new Date().getTime()
+  const start: number = new Date().getTime()
   await sleep(3)
-  const end = new Date().getTime()
+  const end: number = new Date().getTime()
   expect(end - start).toBeGreaterThanOrEqual(3000)
 })

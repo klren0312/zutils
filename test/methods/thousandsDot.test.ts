@@ -5,5 +5,5 @@ test('test thousandsDot', () => {
 })
 
 test('test not number', () => {
-  expect(thousandsDot('test')).toBe('0')
+  expect(thousandsDot(parseInt('test'))).toBe('0')
 })

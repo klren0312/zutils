@@ -8,3 +8,5 @@ function guid (): string {
     return v.toString(16)
   })
 }
+
+export default guid

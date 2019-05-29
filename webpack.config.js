@@ -3,7 +3,7 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
   mode: 'production',
-  entry: './index.js',
+  entry: './index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'zmethods.min.js',
@@ -12,28 +12,13 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.tsx?$/,
         exclude: /(node_modules)/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env']
-          }
-        }
+        use: 'ts-loader'
       }
     ]
   },
-  plugins: [
-    new UglifyJsPlugin({
-      parallel: true,
-      uglifyOptions: {
-        ie8: false,
-        ecma: 8,
-        output: {
-          comments: false,
-          beautify: false
-        }
-      }
-    })
-  ]
+  resolve: {
+    extensions: ['.tsx', '.ts', '.js']
+  }
 }

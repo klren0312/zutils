@@ -1,5 +1,7 @@
 function arrUnique (arr: Array<any>): Array<any> {
-  let obj: object = {},
+  let obj: {
+    [index: string]: Boolean
+  } = {},
       len: number = arr.length,
       res: Array<any> = []
   for (let i: number = 1; i < len; i++) {
@@ -11,3 +13,5 @@ function arrUnique (arr: Array<any>): Array<any> {
   }
   return res
 }
+
+export default arrUnique
