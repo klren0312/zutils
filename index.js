@@ -9,6 +9,7 @@ import deepCopy from './methods/deepCopy'
 import guid from './methods/guid'
 import numPadding from './methods/numPadding'
 import findLackNum from './methods/findLackNum'
+import arrChunk from './methods/arrChunk'
 
 export {
   arrUnique,
@@ -21,5 +22,6 @@ export {
   deepCopy,
   guid,
   numPadding,
-  findLackNum
+  findLackNum,
+  arrChunk
 }

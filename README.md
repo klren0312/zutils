@@ -5,7 +5,7 @@ some methods that we always use
 [![npm](https://img.shields.io/npm/dt/zmethods.svg)](https://www.npmjs.com/package/zmethods)
 [![codecov](https://codecov.io/gh/klren0312/zutils/branch/master/graph/badge.svg)](https://codecov.io/gh/klren0312/zutils)
 
-[npm-image]: https://img.shields.io/badge/npm-v1.0.13-blue.svg
+[npm-image]: https://img.shields.io/badge/npm-v1.0.15-blue.svg
 [npm-url]: https://www.npmjs.com/package/zmethods
 
 ## Install
@@ -38,3 +38,4 @@ $ npm run test
 |guid|生成guid|
 |numPadding|数字补零|
 |findLackNum|查找顺序数字中缺失的数字|
+|arrChunk|数组按指定大小分割|

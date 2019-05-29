@@ -95,6 +95,15 @@ declare namespace zutils {
    * @return {Array<number>} 缺少的数字数组
    */
   export function findLackNum(nums: Array<number>, ...startNum: Array<number>)
+
+  /**
+   * 数组按一定大小分割
+   * @param {Array} array 需要分割的数组
+   * @param {Number} size 分割大小
+   * 
+   * @return {Array} 分割后的数组
+   */
+  export function arrChunk(array: Array<any>, size: number): Array<any>
 }
 
 declare module "zutils" {
