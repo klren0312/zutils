@@ -6,7 +6,7 @@
   "author": "zzes",
   "license": "WTFPL",
   "scripts": {
-    "build": "rimraf dist && webpack",
+    "build": "webpack",
     "test": "jest --coverage && codecov -t 1d853f4c-be02-4ef3-a0b0-e755fc730024"
   },
   "types": "index.d.ts",
@@ -18,9 +18,9 @@
     "@types/jest": "^24.0.11",
     "babel-jest": "^24.1.0",
     "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.2",
     "codecov": "^3.2.0",
     "jest": "^24.1.0",
-    "rimraf": "^2.6.3",
     "ts-jest": "^24.0.0",
     "typescript": "^3.3.3333",
     "uglifyjs-webpack-plugin": "^2.1.2"
