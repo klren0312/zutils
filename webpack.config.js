@@ -8,7 +8,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'zmethods.min.js',
-    library: 'zmethods'
+    library: 'zmethods',
+    libraryTarget: 'umd'
   },
   module: {
     rules: [
