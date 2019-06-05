@@ -6,8 +6,10 @@
   "author": "zzes",
   "license": "WTFPL",
   "scripts": {
-    "build": "webpack",
-    "test": "jest --coverage && codecov -t 1d853f4c-be02-4ef3-a0b0-e755fc730024"
+    "build": "npm run local-test && webpack",
+    "test": "jest --coverage && codecov -t 1d853f4c-be02-4ef3-a0b0-e755fc730024",
+    "local-test": "npm run lint && jest",
+    "lint": "eslint ./methods"
   },
   "types": "index.d.ts",
   "devDependencies": {
@@ -21,6 +23,12 @@
     "clean-webpack-plugin": "^2.0.2",
     "codecov": "^3.2.0",
     "compression-webpack-plugin": "^2.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
     "jest": "^24.1.0",
     "ts-jest": "^24.0.0",
     "typescript": "^3.3.3333",

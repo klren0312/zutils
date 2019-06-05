@@ -1,6 +1,6 @@
 /**
  * 判断项是否在数组里
- * @param {Array} items 数组 
+ * @param {Array} items 数组
  * @param {Any} item 项
  * @return {Boolean} true - 在   false - 不在
  */

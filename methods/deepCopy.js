@@ -21,7 +21,7 @@ function deepCopy (obj, cache = []) {
     return hit.copy
   }
 
-  const copy = Array.isArray(obj) ?  /* istanbul ignore next */ [] :   /* istanbul ignore next */ {}
+  const copy = Array.isArray(obj) ? /* istanbul ignore next */ [] : /* istanbul ignore next */ {}
   // 将copy首先放入cache, 因为我们需要在递归deepCopy的时候引用它
   cache.push({
     original: obj,

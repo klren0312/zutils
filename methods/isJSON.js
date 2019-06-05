@@ -2,7 +2,7 @@
  * 判断是否为 JSON 字符串
  * @param {String} str JSON字符串
  */
-function isJSON(str) {
+function isJSON (str) {
   if (typeof str === 'string') {
     try {
       const obj = JSON.parse(str)

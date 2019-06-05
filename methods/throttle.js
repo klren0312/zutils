@@ -3,7 +3,7 @@
  * @param {Function} fn 函数
  * @param {Number} delay 延时
  */
-function throttle(fn, delay) {
+function throttle (fn, delay) {
   var baseTime = 0
   return function () {
     var currentTime = Date.now()
