@@ -10,6 +10,7 @@ import guid from './methods/guid'
 import numPadding from './methods/numPadding'
 import findLackNum from './methods/findLackNum'
 import arrChunk from './methods/arrChunk'
+import isJSON from './methods/isJSON'
 
 export {
   arrUnique,
@@ -23,5 +24,6 @@ export {
   guid,
   numPadding,
   findLackNum,
-  arrChunk
+  arrChunk,
+  isJSON
 }
