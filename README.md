@@ -35,6 +35,7 @@ $ npm run test
 |byteFormat|byte换算|
 |thousandsDot|数组每三位逗号分隔|
 |deepCopy|对象/数组深拷贝|
+|easyDeepCopy|简单对象/数组深拷贝(不包含数组等)|
 |guid|生成guid|
 |numPadding|数字补零|
 |findLackNum|查找顺序数字中缺失的数字|

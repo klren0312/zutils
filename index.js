@@ -6,6 +6,7 @@ import toIndexOf from './methods/toIndexOf'
 import byteFormat from './methods/byteFormat'
 import thousandsDot from './methods/thousandsDot'
 import deepCopy from './methods/deepCopy'
+import easyDeepCopy from './methods/easyDeepCopy'
 import guid from './methods/guid'
 import numPadding from './methods/numPadding'
 import findLackNum from './methods/findLackNum'
@@ -21,6 +22,7 @@ export {
   byteFormat,
   thousandsDot,
   deepCopy,
+  easyDeepCopy,
   guid,
   numPadding,
   findLackNum,
