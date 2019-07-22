@@ -104,6 +104,12 @@ declare namespace zutils {
    * @return {Array} 分割后的数组
    */
   export function arrChunk(array: Array<any>, size: number): Array<any>
+
+  /**
+   * 检测是否是JSON字符串
+   * @param {string} str 字符串
+   */
+  export function isJSON (str: string): boolean
 }
 
 declare module "zutils" {
