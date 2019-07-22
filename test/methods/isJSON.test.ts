@@ -5,4 +5,5 @@ test('test isJSON', () => {
   expect(isJSON('"test"')).toBe(false)
   expect(isJSON('null')).toBe(false)
   expect(isJSON('test')).toBe(false)
+  expect(isJSON(1234)).toBe(false)
 })

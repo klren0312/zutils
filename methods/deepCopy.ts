@@ -8,6 +8,7 @@ function deepCopy (obj: any, cache: Array<any> = []): any {
     return hit.copy
   }
 
+  /* istanbul ignore next */
   const copy: any = Array.isArray(obj) ? [] : {}
   cache.push({
     original: obj,

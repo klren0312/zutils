@@ -1,5 +1,6 @@
 .cache
 .vscode
+yarn.lock
 node_modules
 coverage
 test/index.test.html

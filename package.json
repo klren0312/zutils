@@ -6,7 +6,7 @@
   "author": "zzes",
   "license": "WTFPL",
   "scripts": {
-    "build": "rimraf dist && webpack",
+    "build": "npm run test && rimraf dist && webpack",
     "test": "jest --coverage && codecov -t 1d853f4c-be02-4ef3-a0b0-e755fc730024"
   },
   "types": "index.d.ts",

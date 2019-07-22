@@ -1,4 +1,4 @@
-function isJSON (str: string): boolean {
+function isJSON (str: string | any): boolean {
   if (typeof str === 'string') {
     try {
       const obj: object = JSON.parse(str)
