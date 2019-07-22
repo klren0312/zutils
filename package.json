@@ -1,8 +1,8 @@
 {
   "name": "zmethods",
-  "version": "1.0.15",
+  "version": "1.0.18",
   "description": "some javascript methods",
-  "main": "index.js",
+  "main": "index.ts",
   "author": "zzes",
   "license": "WTFPL",
   "scripts": {
