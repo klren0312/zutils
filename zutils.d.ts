@@ -112,6 +112,14 @@ declare namespace zutils {
    * @return {boolean} 是否是JSON字符串
    */
   export function isJSON (str: string): boolean
+
+  /**
+   * 打乱数组
+   * @param {Array} arr 数组
+   * 
+   * @return {Array} 打乱后的数组
+   */
+  function arrShuffle (arr: any[]): any[]
 }
 
 declare module "zutils" {

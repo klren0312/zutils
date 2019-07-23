@@ -40,3 +40,4 @@ $ npm run test
 |findLackNum|查找顺序数字中缺失的数字|
 |arrChunk|数组按指定大小分割|
 |isJSON|判断是否是JSON|
+|arrShuffle|打乱数组|

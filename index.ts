@@ -11,6 +11,7 @@ import numPadding from './methods/numPadding'
 import findLackNum from './methods/findLackNum'
 import arrChunk from './methods/arrChunk'
 import isJSON from './methods/isJSON'
+import arrShuffle from './methods/arrShuffle'
 
 export {
   arrUnique,
@@ -25,5 +26,6 @@ export {
   numPadding,
   findLackNum,
   arrChunk,
-  isJSON
+  isJSON,
+  arrShuffle
 }
