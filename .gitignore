@@ -4,3 +4,4 @@ yarn.lock
 node_modules
 coverage
 test/index.test.html
+dist/docs

@@ -120,8 +120,20 @@ declare namespace zutils {
    * @return {Array} 打乱后的数组
    */
   function arrShuffle (arr: any[]): any[]
+
+  /**
+   * 将参数对象转为url中的query字符串
+   * @param {QueryObj} obj 参数对象, 例如 {a:1, b:2}
+   * 
+   * @return {string} 转换后的query字符串, 例如 'a=1&b=2'
+   */
+  function queryFormat (obj: QueryObj): string
 }
 
 declare module "zutils" {
   export = zutils
+}
+
+interface QueryObj {
+  [propName: string]: string | number | undefined;
 }
