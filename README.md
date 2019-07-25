@@ -1,4 +1,4 @@
-# zmethods
+# [zmethods](https://klren0312.github.io/zutils/)
 some methods that we always use
 
 [![NPM version][npm-image]][npm-url]
