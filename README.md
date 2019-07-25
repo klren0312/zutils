@@ -41,3 +41,4 @@ $ npm run test
 |arrChunk|数组按指定大小分割|
 |isJSON|判断是否是JSON|
 |arrShuffle|打乱数组|
+|queryFormate|Object => URL查询参数格式化|

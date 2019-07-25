@@ -12,6 +12,7 @@ import findLackNum from './methods/findLackNum'
 import arrChunk from './methods/arrChunk'
 import isJSON from './methods/isJSON'
 import arrShuffle from './methods/arrShuffle'
+import queryFormat from './methods/queryFormat'
 
 export {
   arrUnique,
@@ -27,5 +28,6 @@ export {
   findLackNum,
   arrChunk,
   isJSON,
-  arrShuffle
+  arrShuffle,
+  queryFormat
 }
