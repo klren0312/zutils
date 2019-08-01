@@ -23,6 +23,11 @@ $ npm run build
 $ npm run test
 ```
 
+## Deploy Docs
+```bash
+$ npm run deploy-docs
+```
+
 ## Methods
 
 |||
