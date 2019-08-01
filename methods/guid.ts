@@ -1,5 +1,7 @@
 /**
- * 生成guid
+ * @desc 生成guid
+ * 
+ * @return {String} guid
  */
 function guid (): string {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c: string): string {

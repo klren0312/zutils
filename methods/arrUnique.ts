@@ -1,3 +1,9 @@
+/**
+ * @desc 数组去重
+ * @param {Array} arr 需要去重的数组
+ * 
+ * @return {Array} 去重后数组
+ */
 function arrUnique (arr: Array<any>): Array<any> {
   let obj: {
     [index: string]: Boolean

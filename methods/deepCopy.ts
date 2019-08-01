@@ -1,3 +1,10 @@
+/**
+ * @desc 深拷贝
+ * @param {Ojbect/Array} obj 拷贝的对象/数组
+ * @param {Array} cache 缓存数组
+ * 
+ * @return {Ojbect/Array} 拷贝后的对象/数组
+ */
 function deepCopy (obj: any, cache: Array<any> = []): any {
   if (!obj || typeof obj !== 'object') {
     return obj

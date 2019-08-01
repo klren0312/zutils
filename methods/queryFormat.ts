@@ -1,3 +1,9 @@
+/**
+ * @desc 将参数对象转为url中的query字符串
+ * @param {QueryObj} obj 参数对象, 例如 {a:1, b:2}
+ * 
+ * @return {string} 转换后的query字符串, 例如 'a=1&b=2'
+ */
 function queryFormat (obj: any): string 
 function queryFormat (obj: QueryObj): string {
   if (Object.prototype.toString.call(obj) !== '[object Object]') return ''

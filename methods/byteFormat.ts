@@ -1,3 +1,9 @@
+/**
+ * @desc byte单位转换
+ * @param {Number} size 大小
+ * 
+ * @return {String} 转换后的带单位字符串
+ */
 function byteFormat (size: number): string {
   if (typeof size !== 'number') {
 		throw new Error('size must be number')

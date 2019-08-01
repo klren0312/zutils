@@ -1,3 +1,12 @@
+/**
+ * @desc 函数防抖
+ * 保证函数在规定ms内不被触发, 只执行一次
+ * 
+ * @param {Function} fn 执行的函数
+ * @param {Number} delay 延迟 ms
+ * 
+ * @return {Function} 新的防抖函数
+ */
 function debounce (fn: any, delay: number): Function {
   let timer: number = null
   return function (): void {

@@ -10,7 +10,7 @@
   },
   "license": "WTFPL",
   "scripts": {
-    "build": "webpack",
+    "build": "npm run test && webpack && npm run deploy-docs",
     "test": "jest --coverage && codecov -t 1d853f4c-be02-4ef3-a0b0-e755fc730024",
     "deploy-docs": "ts-node tools/gh-pages-publish"
   },
