@@ -13,6 +13,7 @@ import arrChunk from './methods/arrChunk'
 import isJSON from './methods/isJSON'
 import arrShuffle from './methods/arrShuffle'
 import queryFormat from './methods/queryFormat'
+import arrEqual from './methods/arrEqual'
 
 export {
   arrUnique,
@@ -29,5 +30,6 @@ export {
   arrChunk,
   isJSON,
   arrShuffle,
-  queryFormat
+  queryFormat,
+  arrEqual
 }

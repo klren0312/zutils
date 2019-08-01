@@ -88,7 +88,7 @@ declare namespace zutils {
   export function numPadding (num: number, length: number): string
 
   /**
-   * 查找顺序数字中缺少的数字
+   * @desc 查找顺序数字中缺少的数字
    * @param {Array<number>} nums 数字数组(可乱序)
    * @param {Number} startNum 起始数字
    * 
@@ -97,7 +97,7 @@ declare namespace zutils {
   export function findLackNum(nums: Array<number>, ...startNum: Array<number>): Array<number>
 
   /**
-   * 数组按一定大小分割
+   * @desc 数组按一定大小分割
    * @param {Array} array 需要分割的数组
    * @param {Number} size 分割大小
    * 
@@ -106,7 +106,7 @@ declare namespace zutils {
   export function arrChunk(array: Array<any>, size: number): Array<any>
 
   /**
-   * 检测是否是JSON字符串
+   * @desc 检测是否是JSON字符串
    * @param {string} str 字符串
    * 
    * @return {boolean} 是否是JSON字符串
@@ -114,7 +114,7 @@ declare namespace zutils {
   export function isJSON (str: string): boolean
 
   /**
-   * 打乱数组
+   * @desc 打乱数组
    * @param {Array} arr 数组
    * 
    * @return {Array} 打乱后的数组
@@ -122,12 +122,21 @@ declare namespace zutils {
   function arrShuffle (arr: any[]): any[]
 
   /**
-   * 将参数对象转为url中的query字符串
+   * @desc 将参数对象转为url中的query字符串
    * @param {QueryObj} obj 参数对象, 例如 {a:1, b:2}
    * 
    * @return {string} 转换后的query字符串, 例如 'a=1&b=2'
    */
   function queryFormat (obj: QueryObj): string
+
+  /**
+   * @desc 对比两数组是否相同, 参数相同, 个数相同, 顺序不一定相同
+   * @param {Array} arr1 需要对比的数组
+   * @param {Array} arr2 需要对比的数组
+   * 
+   * @return {boolean} 是否相同
+   */
+  function arrEqual (arr1: Array<any>, arr2: Array<any>): boolean
 }
 
 declare module "zutils" {

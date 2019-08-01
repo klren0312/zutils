@@ -42,3 +42,4 @@ $ npm run test
 |isJSON|判断是否是JSON|
 |arrShuffle|打乱数组|
 |queryFormate|Object => URL查询参数格式化|
+|arrEqual|两数组相等, 参数相同, 个数相同, 位置不一定相同|
