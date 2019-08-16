@@ -4,8 +4,7 @@
  * 
  * @return {Array} 打乱后的数组
  */
-function arrShuffle (arr: any): any[]
-function arrShuffle (arr: any[]): any[] {
+function arrShuffle (arr: any[] | any): any[] {
   if (!Array.isArray(arr)) {
     throw new TypeError('prop need Array');
   }

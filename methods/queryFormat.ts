@@ -4,8 +4,7 @@
  * 
  * @return {string} 转换后的query字符串, 例如 'a=1&b=2'
  */
-function queryFormat (obj: any): string 
-function queryFormat (obj: QueryObj): string {
+function queryFormat (obj: QueryObj | any): string {
   if (Object.prototype.toString.call(obj) !== '[object Object]') return ''
   if (JSON.stringify(obj) === '{}') return ''
   return Object.keys(obj).filter((v: any) => obj[v]).map((v: any) => `${v}=${obj[v]}`).join('&')
