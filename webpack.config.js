@@ -8,8 +8,9 @@ module.exports = {
   entry: './index.ts',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'zmethods.min.js',
-    library: 'zmethods'
+    filename: 'zmethods.umd.js',
+    library: 'zmethods',
+    libraryTarget: 'umd'
   },
   module: {
     rules: [
