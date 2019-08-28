@@ -10,7 +10,7 @@ function arrUnique (arr: Array<any>): Array<any> {
   } = {},
       len: number = arr.length,
       res: Array<any> = []
-  for (let i: number = 1; i < len; i++) {
+  for (let i: number = 0; i < len; i++) {
     let type: string = typeof arr[i]
     if (!obj[arr[i] + type]) {
       obj[arr[i] + type] = true

@@ -1,6 +1,6 @@
 {
   "name": "zmethods",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "some javascript methods",
   "main": "dist/zmethods.umd.js",
   "author": "zzes <kuanglong0312@sina.com>",
@@ -25,6 +25,7 @@
     "babel-loader": "^8.0.5",
     "clean-webpack-plugin": "^3.0.0",
     "codecov": "^3.2.0",
+    "husky": "^3.0.4",
     "jest": "^24.1.0",
     "shelljs": "^0.8.3",
     "terser-webpack-plugin": "^1.3.0",
