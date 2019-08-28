@@ -137,6 +137,16 @@ declare namespace zutils {
    * @return {boolean} 是否相同
    */
   function arrEqual (arr1: Array<any>, arr2: Array<any>): boolean
+
+  /**
+   * @desc 数组随机抽取
+   * 随机从数组中抽取指定数量的不重复项
+   * 
+   * @param {Array} arr 需要随机抽取的数组
+   * @param {Number} num 抽取的数量
+   * @return {Array} 抽取出来的数组
+   */
+  function arrRandom (arr: any[], num: number): any[] 
 }
 
 declare module "zutils" {
