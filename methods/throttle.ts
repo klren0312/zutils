@@ -13,6 +13,7 @@ function throttle (callback: any, delay: number): Function {
     const currentTime: number = Date.now()
     if (baseTime + delay < currentTime) {
       callback.apply(this, arguments)
+      baseTime = currentTime
     }
   }
 }
