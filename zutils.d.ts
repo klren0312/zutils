@@ -94,7 +94,7 @@ declare namespace zutils {
    * 
    * @return {Array<number>} 缺少的数字数组
    */
-  export function findLackNum(nums: Array<number>, ...startNum: Array<number>): Array<number>
+  export function findLackNum(nums: Array<number>, startNum?: number): Array<number>
 
   /**
    * @desc 数组按一定大小分割
