@@ -146,7 +146,14 @@ declare namespace zutils {
    * @param {Number} num 抽取的数量
    * @return {Array} 抽取出来的数组
    */
-  function arrRandom (arr: any[], num: number): any[] 
+  function arrRandom (arr: any[], num: number): any[]
+
+  /**
+   * @desc 字符串部分加密
+   * @param {string | number} str 需要保密的字符串
+   * @return {string} 部分加密后的字符串
+   */
+  function strSecret (str: string | number): string 
 }
 
 declare module "zutils" {

@@ -15,6 +15,7 @@ import arrRandom from './methods/arrRandom'
 import arrShuffle from './methods/arrShuffle'
 import arrChunk from './methods/arrChunk'
 import arrUnique from './methods/arrUnique'
+import strSecret from './methods/strSecret'
 
 export {
   debounce,
@@ -33,5 +34,6 @@ export {
   arrRandom,
   arrShuffle,
   arrChunk,
-  arrUnique
+  arrUnique,
+  strSecret
 }
