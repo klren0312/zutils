@@ -8,7 +8,7 @@ declare namespace zutils {
    * 
    * @return {Function} 新的防抖函数
    */
-  export function debounce (fn: any, delay: number): Function
+  function debounce (fn: any, delay: number): Function
 
   /**
    * @desc 函数节流
@@ -19,7 +19,7 @@ declare namespace zutils {
    * 
    * @return {Function} 新的节流函数
    */
-  export function throttle (callback: any, delay: number): Function 
+  function throttle (callback: any, delay: number): Function 
 
   /**
    * @desc 睡眠函数
@@ -27,7 +27,7 @@ declare namespace zutils {
    * 
    * @return {Promise} Promise对象
    */
-  export function sleep(delay: number): Promise<void>
+  function sleep(delay: number): Promise<void>
 
   /**
    * @desc 数组去重
@@ -35,7 +35,7 @@ declare namespace zutils {
    * 
    * @return {Array} 去重后数组
    */
-  export function arrUnique (arr: Array<any>): Array<any>
+  function arrUnique (arr: Array<any>): Array<any>
 
   /**
    * @desc 判断项是否在数组里
@@ -44,7 +44,7 @@ declare namespace zutils {
    * 
    * @return {Boolean} 是否在数组里
    */
-  export function toIndexOf (items: Array<any>, item: any): boolean
+  function toIndexOf (items: Array<any>, item: any): boolean
 
   /**
    * @desc byte单位转换
@@ -52,7 +52,7 @@ declare namespace zutils {
    * 
    * @return {String} 转换后的带单位字符串
    */
-  export function byteFormat (size: number): string
+  function byteFormat (size: number): string
 
   /**
    * @desc 数字每三位打一个逗号
@@ -60,7 +60,7 @@ declare namespace zutils {
    * 
    * @return 处理后的字符串
    */
-  export function thousandsDot (num: number): string
+  function thousandsDot (num: number): string
 
   /**
    * @desc 深拷贝
@@ -69,14 +69,14 @@ declare namespace zutils {
    * 
    * @return {Ojbect/Array} 拷贝后的对象/数组
    */
-  export function deepCopy (obj: any, cache: Array<any>): any
+  function deepCopy (obj: any, cache: Array<any>): any
 
   /**
    * @desc 生成guid
    * 
    * @return {String} guid
    */
-  export function guid (): string
+  function guid (): string
 
   /**
    * @desc 数字补零
@@ -85,7 +85,7 @@ declare namespace zutils {
    * 
    * @return {String} 补零后的字符串
    */
-  export function numPadding (num: number, length: number): string
+  function numPadding (num: number, length: number): string
 
   /**
    * @desc 查找顺序数字中缺少的数字
@@ -94,7 +94,7 @@ declare namespace zutils {
    * 
    * @return {Array<number>} 缺少的数字数组
    */
-  export function findLackNum(nums: Array<number>, startNum?: number): Array<number>
+  function findLackNum(nums: Array<number>, startNum?: number): Array<number>
 
   /**
    * @desc 数组按一定大小分割
@@ -103,7 +103,7 @@ declare namespace zutils {
    * 
    * @return {Array} 分割后的数组
    */
-  export function arrChunk(array: Array<any>, size: number): Array<any>
+  function arrChunk(array: Array<any>, size: number): Array<any>
 
   /**
    * @desc 检测是否是JSON字符串
@@ -111,7 +111,7 @@ declare namespace zutils {
    * 
    * @return {boolean} 是否是JSON字符串
    */
-  export function isJSON (str: string): boolean
+  function isJSON (str: string): boolean
 
   /**
    * @desc 打乱数组
