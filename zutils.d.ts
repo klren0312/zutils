@@ -154,6 +154,13 @@ declare namespace zutils {
    * @return {string} 部分加密后的字符串
    */
   function strSecret (str: string | number): string 
+
+  /**
+   * @desc 将数字转为中文大写
+   * @param {Number} num 需要转为中文大写的数字
+   * @return {String} 中文大写的数字
+   */
+  function numChineseCapital (num: number|string): string 
 }
 
 declare module "zutils" {
