@@ -1,12 +1,12 @@
 /**
- * @desc 简单取交集
+ * @desc 数组简单取交集
  *
  * @param {Array<string | number>} source 源数据
  * @param {Array<string | number>} comparison 对比的数据
  *
  * @returns {Array<string | number>}
  */
-function arrIntersection (source: (string | number)[], comparison: (string | number)[]) {
+function arrIntersection (source: (string | number)[], comparison: (string | number)[]): (string | number)[] {
   return comparison.filter(v => source.includes(v))
 }
 

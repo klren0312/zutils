@@ -161,6 +161,16 @@ declare namespace zutils {
    * @return {String} 中文大写的数字
    */
   function numChineseCapital (num: number|string): string 
+
+  /**
+   * @desc 数组简单取交集
+   *
+   * @param {Array<string | number>} source 源数据
+   * @param {Array<string | number>} comparison 对比的数据
+   *
+   * @returns {Array<string | number>}
+   */
+  function arrIntersection (source: (string | number)[], comparison: (string | number)[]): (string | number)[]
 }
 
 declare module "zutils" {

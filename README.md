@@ -49,3 +49,4 @@ $ npm run deploy-docs
  - arrRandom 随机从数组中抽取指定数量的不重复项
  - strSecret 字符串局部加密打星号
  - numChineseCapital 将数字转为中文大写
+ - arrIntersection 数组简单取交集
