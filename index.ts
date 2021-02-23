@@ -15,6 +15,7 @@ import arrRandom from './methods/arrRandom'
 import arrShuffle from './methods/arrShuffle'
 import arrChunk from './methods/arrChunk'
 import arrUnique from './methods/arrUnique'
+import arrIntersection from './methods/arrIntersection'
 import strSecret from './methods/strSecret'
 import numChineseCapital from './methods/numChineseCapital'
 
@@ -36,6 +37,7 @@ export {
   arrShuffle,
   arrChunk,
   arrUnique,
+  arrIntersection,
   strSecret,
   numChineseCapital
 }
