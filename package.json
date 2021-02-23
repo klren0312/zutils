@@ -1,6 +1,6 @@
 {
   "name": "zmethods",
-  "version": "1.2.3",
+  "version": "1.2.5",
   "description": "some javascript methods",
   "main": "dist/zmethods.umd.js",
   "author": "zzes <kuanglong0312@sina.com>",
