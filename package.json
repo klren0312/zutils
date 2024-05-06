@@ -1,20 +1,24 @@
 {
   "name": "zmethods",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "some javascript methods",
   "main": "dist/zmethods.umd.js",
+  "types": "zutils.d.ts",
   "author": "zzes <kuanglong0312@sina.com>",
   "repository": {
     "type": "git",
     "url": "git@github.com:klren0312/zutils.git"
   },
+  "files": [
+    "dist",
+    "zutils.d.ts"
+  ],
   "license": "WTFPL",
   "scripts": {
     "build": "npm run test && webpack && npm run deploy-docs",
     "test": "jest --coverage && codecov -t 1d853f4c-be02-4ef3-a0b0-e755fc730024",
     "deploy-docs": "ts-node tools/gh-pages-publish"
   },
-  "types": "index.d.ts",
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/plugin-transform-runtime": "^7.3.4",
